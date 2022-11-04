@@ -304,7 +304,10 @@
   }
 
 
-
+  .product {
+    margin: 80px 0px;
+  }
+  
 
 
   
@@ -312,4 +315,30 @@
   .container {
     width : 180%;
   }
-  }
+  
+.dataResult {
+  width: 55%;
+  height: 200px;
+  margin: auto;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
+  z-index: 1200;
+  transform: translate(-50%, -50%);
+  left: 89%;
+  bottom: 34%;
+} 
+
+
+
+.product {
+  margin: 80px 0px;
+}
+
+.input_filter {
+  width: 60%;
+}
+
+}

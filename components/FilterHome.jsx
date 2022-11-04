@@ -1,5 +1,6 @@
 
 import  React, { useEffect,useState } from 'react';
+import styles from '../styles/Home.module.css';
 
 export const FilterHome = ( ) => {
 
@@ -34,12 +35,14 @@ let result = !search ? data :  data.filter( (value)=>
  return ( 
     <div className="container" >
 
-            <input 
+          <div className={styles.input_filter} >
+          <input 
             type="text" className="form-control m-4"
-             placeholder='search home' 
+             placeholder='search your project' 
              value={ search }
              onChange={ searcher }
              />
+          </div>
 
          <div class="row">
 
