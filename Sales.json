@@ -1,0 +1,44 @@
+[
+    { 
+        "title": "hola",
+        "img_sales":"https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg",
+        "initial_price": "Initial price",
+        "especial": "especial Price",
+        "price":"$US 100.000",
+        "home": "Home",
+        "buy":"Buy",
+        "foo1":"keep in touch",
+        "foot2":"Remote Supervision",
+        "ready": "Are you ready to buy it ?",
+        "foot3":" ABC Company"
+
+     },
+     { 
+        "title": "hola",
+        "img_sales":"https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg",
+        "initial_price": "Initial price",
+        "especial": "especial Price",
+        "price":"$US 90.000",
+        "home": "Home",
+        "buy":"Buy",
+        "foo1":"keep in touch",
+        "foot2":"Remote Supervision",
+        "ready": "Are you ready to buy it ?",
+        "foot3":" ABC Company"
+
+     },
+     { 
+        "title": "hola",
+        "img_sales":"https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg",
+        "initial_price": "Initial price",
+        "especial": "especial Price",
+        "price":"$US 70.000",
+        "home": "Home",
+        "buy":"Buy",
+        "foo1":"keep in touch",
+        "foot2":"Remote Supervision",
+        "ready": "Are you ready to buy it ?",
+        "foot3":" ABC Company"
+
+     }
+ ]

@@ -1,16 +1,17 @@
-.container {
-  padding: 0 2rem;
-}
+/* .container {
+  padding: 0;
+} */
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+/* .main {
+  min-height: 100vh; 
+   min-height: 40vh;
+ flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  margin-top: 1rem;
+} */
 
 .footer {
   display: flex;
@@ -29,8 +30,12 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #0070f3 !important;
   text-decoration: none;
+}
+
+.change {
+  color: #0070f3 !important;
 }
 
 .title a:hover,
@@ -127,3 +132,160 @@
     filter: invert(1);
   }
 }
+
+
+
+/* mis estilos */
+
+.herocontainer{
+  width: 100%;
+  background: url(../img/03.jpg) center/ cover;
+  height: 70vh;
+  position: relative;
+  animation-duration: 5s;
+  animation-name: animLogo;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animLogo{
+  from {
+    background: url(../img/03.jpg) center/ cover;
+  }
+  50%{
+    background: url(../img/05.jpg) center/ cover;
+  } 70% {
+    background: url(../img/07.jpg) center/ cover;
+      }
+
+   100% {
+      background: url(../img/08.jpg) center/ cover;
+        }
+}
+
+.herobody::before{
+    content    : "";
+  background : #0000006f; 
+  position   : absolute;
+  width      : 100%;
+  height     : 100%;
+  opacity    : 0.8; 
+}
+
+.nav-link {
+  color: #0070f3 !important;
+}
+
+.nav-item {
+  color: #0070f3 !important;
+}
+
+
+.herobody{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.h1{
+  margin: 0;
+  display: inline;
+  color: #ffffff;
+  font-size: 7rem;
+  opacity: 0.8;
+  line-height: 120px;
+}
+
+.span{
+  font-size: 2rem;
+  color: #ffffff;
+  opacity: 0.8;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form{
+  display: flex;
+}
+
+.input{
+  width: 500px;
+  padding: 15px;
+  border-radius: 4px 0px 0px 4px;
+  border: 0;
+  outline: none;
+  position: relative;
+  z-index: 100;
+}
+
+.button{
+  border-radius: 0px 4px 4px 0px;
+  border: 0;
+  padding: 14px;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+
+.button:hover{
+  background: #1565C0;
+  color: #ffffff;
+}
+
+/* result */
+
+.dataResult {
+  width: 45%;
+  height: 200px;
+  margin: auto;
+   background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto; 
+  position:absolute;
+  z-index: 1200;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 0%;
+} 
+
+.link_ {
+  font-size: 1.3rem !important;
+}
+
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .input{
+    width: 300px;
+  }
+  .h1{
+    font-size: 3rem;
+  }
+  .herocontainer{
+    width: 100%;
+    background: url(../img/03.jpg) center/ cover;
+    height: 30vh;
+    position: relative;
+    animation-duration: 5s;
+    animation-name: animLogo;
+    animation-iteration-count: infinite;
+  }
+  
+  }
