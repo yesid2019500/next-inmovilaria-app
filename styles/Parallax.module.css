@@ -64,6 +64,12 @@
         font-size: 2rem;
         color: #fff;
     }
+
+    .our {
+        width: 100%;
+        height:440px;
+        border-radius: 10px;
+    }
     
     }
 
@@ -75,11 +81,19 @@
         padding: 10px;
         font-size: 1rem;
     }
+
+    .our {
+        width: 100%;
+        height:430px;
+        border-radius: 10px;
+    }
     
     .box_three p {
         color: #fff;
-        font-size: 0.6rem;
+        font-size: 0.4rem;
     }
+
+    
 
     .box_three {
         width: 270px;

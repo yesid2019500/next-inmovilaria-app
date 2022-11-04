@@ -1,6 +1,3 @@
-/* .container {
-  padding: 0;
-} */
 
 /* .main {
   min-height: 100vh; 
@@ -271,21 +268,48 @@
 
 
 
+
 @media (max-width: 768px) {
   .input{
-    width: 300px;
+    width: 190px;
+    height: 30px;
+  }
+  .button{
+    padding: 0;
+    z-index: 100;
   }
   .h1{
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .herocontainer{
     width: 100%;
     background: url(../img/03.jpg) center/ cover;
-    height: 30vh;
+    height: 46vh;
     position: relative;
     animation-duration: 5s;
     animation-name: animLogo;
     animation-iteration-count: infinite;
   }
+  .form{
+    display: flex;
+    position: relative;
+    bottom: 5px;
+  }
   
+  .span{
+    font-size: 1rem;
+   
+  }
+  
+  }
+
+
+
+
+
+  
+@media (max-width: 414px) {
+  .container {
+    width : 180%;
+  }
   }
